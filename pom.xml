@@ -54,11 +54,11 @@
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>1.2.11</version>
         </dependency>
-        <!-- Mybatis-Plus -->
+        <!-- Mybatis -->
         <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.5.2</version>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.2.2</version>
         </dependency>
         <!-- Redis -->
         <dependency>
@@ -77,5 +77,4 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
 </project>
